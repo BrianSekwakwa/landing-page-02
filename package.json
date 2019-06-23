@@ -1,0 +1,13 @@
+{
+  "name": "landing-page-01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "brian sekwakwa",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  },
+  "scripts": {
+    "sass": "node-sass -w scss -o dist/css --recursive"
+  }
+}
