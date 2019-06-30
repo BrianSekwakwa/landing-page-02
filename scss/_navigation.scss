@@ -1,0 +1,28 @@
+.navigation {
+  background: transparent;
+  width: 100%;
+  padding: 1rem 0 1rem 5rem;
+  position: fixed;
+
+  &__logo {
+    font-family: "Rubik Mono One", sans-serif;
+    font-size: 1.2rem;
+  }
+
+  &__links {
+    display: inline;
+    margin-left: 4rem;
+    & li {
+      padding-bottom: 0.2rem;
+      display: inline;
+      margin-right: 2rem;
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        border-bottom-color: #000000;
+      }
+    }
+  }
+}
